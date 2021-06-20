@@ -1,0 +1,192 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  color: #333;
+  font-size: 13px;
+  line-height: 150%;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+  border: 0px;
+  background-color: #FFF;
+  position: relative;
+  top: 1px;
+}
+
+header {
+  width: 100%;
+}
+
+.header-title {
+  margin: 0;
+  padding: 0;
+}
+
+.corridor {
+  width: 100%;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  background-color: #39F;
+  padding: 3px 0 3px 0;
+  font-weight: bold;
+  color: #fff;
+  width: 100%;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav li {
+  text-align: center;
+  width: 20%;
+}
+
+.nav ul li a {
+  display: block;
+  height: 20px;
+  padding: 10px;
+  color: #FFF;
+  background-color: green;
+  text-decoration: none;
+  border-left: 1px solid white;
+  margin: 0;
+}
+
+.nav ul li a:hover {
+  -webkit-filter: drop-shadow(10px 10px 10px black);
+          filter: drop-shadow(10px 10px 10px black);
+}
+
+#container {
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  padding-top: 20px;
+  clear: both;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70% 30%;
+      grid-template-columns: 70% 30%;
+}
+
+#main {
+  width: 95%;
+  padding: 10px 30px;
+}
+
+#main h2 {
+  padding: 3px 10px;
+  margin: 0 0 10px 0;
+  color: #FFF;
+  font-size: 16px;
+  border-left: solid 10px #C00;
+  background: #F90 url(../images/main_h2.jpg) right top repeat-y;
+}
+
+#main p {
+  margin: 0;
+  padding: 0;
+}
+
+#main .post {
+  margin: 0 0 30px 0;
+}
+
+#main .post img.right {
+  margin: 0 0 0 8px;
+}
+
+#main .post img.left {
+  margin: 0 8px 0 0;
+}
+
+.right {
+  float: right;
+  width: 40%;
+  height: auto;
+}
+
+.left {
+  float: left;
+  width: 40%;
+  height: auto;
+}
+
+/* -------------------- clearfix -------------------- */
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.side {
+  padding: 20px;
+  background-color: #F99;
+}
+
+.box {
+  margin: 0 auto 30px auto;
+  padding: 0 0 20px 0;
+  background: url(/img/side_box.png) bottom no-repeat;
+}
+
+.box h2 {
+  text-align: center;
+  margin: 0;
+  padding: 8px;
+  color: #FFF;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: normal;
+  background: url(/img/side_box_h2.png) center no-repeat;
+}
+
+.box .box-body {
+  padding: 8px;
+  border-right: solid 1px #C36;
+  border-bottom: solid 1px #C36;
+  border-left: solid 1px #C36;
+  background-color: #FFF;
+}
+
+.box .box-body ul {
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+.box .box-body ul li {
+  list-style: none;
+  border-bottom: solid 1px #C36;
+  padding: 8px 0 8px 4px;
+}
+
+.box .box-body ul li:hover {
+  list-style: none;
+  border-bottom: solid 1px #C36;
+  padding: 8px 0 8px 4px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=style.css.map */
